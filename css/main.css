@@ -1,0 +1,74 @@
+html{
+    font-family: 'Poppins', 'Montserrat' ;
+}
+
+
+
+
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: #222;
+  }
+  
+  h3 {
+    font-size: 2em;
+    font-weight: bolder;
+    color: #222;
+  }
+  h1 {
+    margin: 0;
+    line-height: 1.5em;
+  }
+  
+  h2,
+  h3,
+  h4 {
+    margin: 0.5em;
+  }
+  
+
+  .logo {
+    width: 40%; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+    float: left;
+  }
+
+nav { 
+    color: #fff;
+    padding: 10px 10px;
+    align-items: center;
+  }
+
+  nav ul li {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+  }
+  
+
+
+
+
+  /* Media query to hide the banner on devices with a maximum width of 600 pixels (mobile) */
+@media screen and (max-width: 480px) {
+    .banner {
+      display: none;
+    }
+  }
+  
+  /* Additional styles for larger screens (desktop) */
+  @media screen and (min-width: 601px) {
+    .banner {
+      display: block; /* or any other styling you want for desktop */
+    }
+  }
