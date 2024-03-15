@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Bella Onojie</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/styleguide.css">
@@ -11,7 +11,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <title>Food delivery app</title>
+    <style>
+        /* Custom styles specific to the About page */
+        /* Add your custom CSS here */
+        /* Example:
+        #about {
+            background-color: #f9f9f9;
+            padding: 50px;
+        }
+        */
+    </style>
 </head>
 <body>
 
@@ -23,53 +32,41 @@
     <header role="banner" itemscope itemtype="https://schema.org/WPHeader">
         <nav role="navigation">
             <div class="nav-container">
-                <img id="logo1" class="logo" srcset="images/logo-derivatives/logo-480_x_237.png 480w,
-            images/logo-derivatives/logo-1034_x_511.png 1034w,
-            images/logo-derivatives/logo-1920_x_950.png 1920w" src="images/logo-derivatives/logo.png" alt="logo">
+                <img id="logo1" class="logo" src="images/logo.png" alt="logo">
                 <i class="fa-solid fa-bars"></i>
             </div>
             <ul>
                 <li><a href="index.html" itemprop="url">Home</a></li>
                 <li><a href="#" itemprop="url">Product</a></li>
-                <li><a href="about.html" itemprop="url">about us</a></li>
+                <li><a href="about.html" itemprop="url">About Us</a></li>
                 <li><a href="contact.html" itemprop="url">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <main role="main" itemscope itemtype="https://schema.org/WebPageElement">
+        <section id="main-content" class="section-banner" role="banner">
+            <div class="banner-text1">
+                <h3>About Bella Onojie</h3>
+                <h1>Discover the Joy of Great Food, Delivered</h1>
+            </div>
+        </section>
 
-    <main>
-
-    <section class="" id="contact">
-        <div>
-            <form action="#">
-                <h2 id="contact-us">Contact us</h2>
-                <h3>Send us a message</h3>
-                <label for="fullname">Full Name</label>
-                <input type="text" name="fullname" id="fullname">
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email">
-                <label for="message">Message</label>
-                <textarea name="message" id="message"></textarea>
-                <input type="submit" value="Send" class="form-button">
-            </form>
-        </div>
-    </section>
-
-    <h3>locatoin</h3>
-    <div> <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89729.22579991184!2d-75.91203670273438!3d45.348039000000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce071f3025ba19%3A0x4e8b1cef296bbd38!2sAlgonquin%20College%20-%20Building%20B!5e0!3m2!1sfr!2sca!4v1702673519727!5m2!1sfr!2sca"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-
+        <section id="about" role="region">
+            <div class="about-content">
+                <h2>Welcome to Bella Onojie</h2>
+                <p>Welcome to Bella Onojie, your ultimate destination for delicious food delivered straight to your doorstep. At Bella Onojie, we're passionate about food and committed to providing you with a seamless and enjoyable dining experience.</p>
+                <p>Our journey began with a simple idea: to make ordering food easy, convenient, and enjoyable for everyone. Whether you're craving your favorite comfort food or want to try something new, Bella Onojie has got you covered.</p>
+                <p>What sets us apart is our dedication to quality and customer satisfaction. We work closely with local restaurants and food vendors to bring you the freshest ingredients and the tastiest dishes, all delivered with speed and precision.</p>
+                <p>But Bella Onojie is more than just a food delivery app – we're a community. We believe in fostering connections and creating memorable experiences through food. That's why we're committed to supporting local businesses and giving back to the communities we serve.</p>
+                <p>Join us on our mission to redefine the way you experience food. Whether you're a foodie, a chef, or someone who just loves a good meal, there's a place for you at Bella Onojie. Come discover the joy of great food, delivered.</p>
+                <p>Thank you for choosing Bella Onojie. We look forward to serving you!</p>
+            </div>
+        </section>
     </main>
 
     <footer id="footer" role="contentinfo" itemscope itemtype="https://schema.org/WPFooter">
-        <img id="logo2" class="logo" srcset="images/logo-derivatives/logo-480_x_237.png 480w, 
-        images/logo-derivatives/logo-1034_x_511.png 1034w, 
-        images/logo-derivatives/logo-1920_x_950.png 1920w" 
-        src="images/logo-derivatives/logo.png" alt="logo">
+        <img id="logo2" class="logo" src="images/logo.png" alt="logo">
         <div class="icon">
             <img src="images/twitter.png" alt="twitter logo">
             <img src="images/facebook.png" alt="facebook logo">
@@ -82,6 +79,7 @@
     <a href="#" id="back-to-top" role="button" aria-label="Back to top">Back to top</a>
 
     <script>
+        // Back to Top Functionality
         var backToTopButton = document.getElementById("back-to-top");
         window.addEventListener("scroll", function() {
             if (window.pageYOffset > 100) {
@@ -97,7 +95,3 @@
     </script>
 </body>
 </html>
-
-    
-
-    
